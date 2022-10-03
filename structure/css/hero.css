@@ -32,15 +32,6 @@
     width: 100%;
 }
 
-.hero-content{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    padding-right: 100px;
-    padding-left: 20px;
-}
-
 .hero-heading{
     color: #292E47;
     font-size: 60px;
@@ -88,6 +79,31 @@ button:hover{
     font-weight:700;
 }
 
+/* Tablet-medium */
+@media screen and (max-width: 768px){
+.hero-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding: 50px;
+    }
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-img{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+    }
+    
+}
+
+/* Smartphone-small 600 */
 
 
 

@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 
-/* Tablet-medium */
+/* Tablet-medium-Mobile */
 @media only screen and (max-width: 768px){
     #navbar{
         margin:0px;
