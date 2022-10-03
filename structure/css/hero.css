@@ -1,3 +1,7 @@
 .hero-section{
     padding-top: 100px;
 }
+
+hero-img{
+    position: relative;
+}
