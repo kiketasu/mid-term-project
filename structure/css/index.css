@@ -1,0 +1,11 @@
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Body structure */
+@import url(./homepage.css);
+
+/* Navbar CSS */
+@import url(./navbar.css);
+
+
+

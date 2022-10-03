@@ -1,0 +1,64 @@
+#navbar{
+    margin-top: 60px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px){
+    #navbar{
+        margin:0px;
+    }
+    }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-btn{
+    background-color: #072AC8;
+    border: none;
+    color: #F2F4FC;
+    padding: 15px 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Tablet-medium */
+@media only screen and (max-width: 768px){
+.contact-btn{
+    display: none;
+}
+}
+
+/* Smartphone-small */
+@media only screen and (max-width: 600px){
+}
+
+.contact-btn:hover{
+    background-color: #292E47;
+    cursor: pointer;
+    
+}
+
+.menu{
+    width: 300px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+@media only screen and (max-width: 768px){
+    .menu{
+        display: none;
+    }
+    }
+
+.menu a {
+    color: #6B708D;
+}
+
+.menu a:hover{
+    color: #072ACA;
+    cursor: pointer;
+}
+
+/* Mobile Navigation Menu */
