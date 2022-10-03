@@ -97,14 +97,34 @@ button:hover{
     .hero-img{
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 100%;
         height: auto;
     }
-    
+
+    .hero-heading{
+    width: 100%;
+    height: auto;
+    text-align:center;
+    display: flex;
+    }
+    .hero-description{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .hero-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
-
+    .hero-buttons a {
+        padding-right: 40px;
+    }
+}
 /* Smartphone-small 600 */
+@media screen and (max-width: 600px){
 
+}
 
 
 
