@@ -1,0 +1,18 @@
+.container-logos {
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Mobile-responsive */
+@media screen and (max-width: 600px) {
+  .container-logos {
+    height: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+  .client-logo {
+    padding: 10px;
+  }
+}
