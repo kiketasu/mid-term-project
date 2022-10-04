@@ -1,130 +1,151 @@
-.hero-section{
-    width: 100%;
-    height: auto;
-    padding-top: 100px;
-    display: flex;
-    justify-content: space-between;
+.hero-section {
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.hero-img{
-    width: 100%;
-    position: relative;
-    height: auto;
+.hero-img {
+  width: 100%;
+  position: relative;
+  height: auto;
 }
 
-.hero-card-1{
-    position: absolute;
-    width: 300px;
-    height: auto;
-    top: 0px;
-    left: -80px;
+.hero-card-1 {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  top: 0px;
+  left: -80px;
 }
 
-.hero-card-2{
-    position: absolute;
-    width: 300px;
-    height: auto;
-    right: -100px;
-    bottom: -150px;
+.hero-card-2 {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  right: -100px;
+  bottom: -150px;
 }
 
-.hero-man{
-    width: 100%;
+.hero-man {
+  width: 100%;
 }
 
-.hero-heading{
-    color: #292E47;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 70px;
-    width: 530px;
-    height: 210px;
-    
+.hero-heading {
+  color: #292e47;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  width: 530px;
+  height: 210px;
 }
 
-.hero-description{
-    color: #6B708D;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    width: 435px;
-    height: 90px;
+.hero-description {
+  color: #6b708d;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  width: 435px;
+  height: 90px;
 }
 
-.hero-buttons{
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
-
+.hero-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .hero-buttons button {
-    background-color: #072AC8;
-    border: none;
-    color: #F2F4FC;
-    padding: 15px 30px;
-    font-family: 'Roboto', sans-serif;
-    margin: 20px;
-    font-size:medium;
+  background-color: #072ac8;
+  border: none;
+  color: #f2f4fc;
+  padding: 15px 30px;
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+  font-size: medium;
 }
 
-button:hover{
-    background-color: #292E47;
-    cursor: pointer;
+button:hover {
+  background-color: #292e47;
+  cursor: pointer;
 }
 
 .hero-buttons a {
-    color:#6B708D;
-    font-weight:700;
+  color: #6b708d;
+  font-weight: 700;
 }
 
 /* Tablet-medium */
-@media screen and (max-width: 768px){
-.hero-section{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: center;
-        padding: 50px;
-    }
-    .hero-content{
-        display: flex;
-        flex-direction: column;
-    }
-    .hero-img{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-    }
-
-    .hero-heading{
+@media screen and (max-width: 768px) {
+  .hero-section {
     width: 100%;
     height: auto;
-    text-align:center;
     display: flex;
-    }
-    .hero-description{
-        display: flex;
-        width: 100%;
-        height: auto;
-    }
-    .hero-buttons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-heading {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+  }
+  .hero-description {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-buttons a {
+    padding-right: 40px;
+  }
 }
-    .hero-buttons a {
-        padding-right: 40px;
-    }
-}
+
 /* Smartphone-small 600 */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
+  .hero-card-1 {
+    display: none;
+  }
 
+  body {
+    padding: 2px;
+  }
+
+  .hero-section {
+    padding: 9px;
+  }
+
+  .hero-card-2 {
+    display: none;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-buttons a {
+    color: #6b708d;
+    font-weight: 700;
+    padding: 0px;
+  }
 }
-
-
-
