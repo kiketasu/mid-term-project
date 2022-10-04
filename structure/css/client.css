@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 0px 30px;
 }
 /* Mobile-responsive */
 @media screen and (max-width: 600px) {

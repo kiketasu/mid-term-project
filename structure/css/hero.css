@@ -1,7 +1,7 @@
 .hero-section {
   width: 100%;
   height: auto;
-  padding-top: 100px;
+  padding: 100px 30px 0px 30px;
   display: flex;
   justify-content: space-between;
 }
