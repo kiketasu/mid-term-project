@@ -4,6 +4,8 @@
 /* Bulma library */
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
+/* ----------- Homepage CSS ---------- */
+
 /* Body structure CSS */
 @import url(./homepage.css);
 
@@ -30,3 +32,9 @@
 
 /* Info and links section CSS */
 @import url(./info.css);
+
+/* ----------- Project Page CSS ---------- */
+
+/* Project section CSS */
+@import url(./projects-page.css);
+
