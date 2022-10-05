@@ -1,0 +1,87 @@
+.form-container {
+  padding: 0px 50px;
+}
+.form-title {
+  font-size: 60px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.form-title h2 {
+  font-weight: bold;
+  color: #292e47;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-fullname {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-double {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form-email {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-phone {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-message {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-inputs > * input {
+  background-color: #e4e6f0;
+  border: none;
+  padding: 20px 10px;
+  font-size: 16px;
+  color: #6b708d;
+}
+
+.form-inputs > * label {
+  font-size: 20px;
+  padding: 10px 0px;
+  color: #6b708d;
+}
+
+#message-area {
+  border: none;
+  background-color: #e4e6f0;
+  padding: 20px 10px;
+  font-size: 16px;
+  color: #6b708d;
+  margin-bottom: 30px;
+}
+
+.form-submit-btn {
+  padding: 30px 10px;
+  background-color: #072ac8;
+  color: #e5f4fc;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 100px;
+}
+
+/* Smartphone-small 600 */
+@media screen and (max-width: 600px) {
+  .form-double {
+    flex-direction: column;
+  }
+}

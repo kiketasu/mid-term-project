@@ -38,17 +38,56 @@
     </div>
     <!-- Form section -->
     <div class="form-container">
-        <div class="form-title"><h2>Contact Us</h2></div>
-        <div class="form-inputs">
-            <div class="form-fullname"></div>
-            <div class="form-double">
-                <div class="form-email"></div>
-                <div class="form-phone"></div>
-            </div>
-            <div class="form-message"></div>
-            <button class="form-submit-btn">Submit</button>
+      <div class="form-title"><h2>Contact Us</h2></div>
+      <div class="form-inputs">
+        <div class="form-fullname">
+          <label for="name">Full name *</label>
+          <input type="text" placeholder="Enter your full name" />
         </div>
-
+        <div class="form-double">
+          <div class="form-email">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter your email" />
+          </div>
+          <div class="form-phone">
+            <label for="phone">Phone</label>
+            <input type="number" placeholder="Enter your phone" />
+          </div>
+        </div>
+        <div class="form-message">
+          <label for="message">Message *</label>
+          <textarea
+            name="message"
+            id="message-area"
+            cols="30"
+            rows="10"
+            placeholder="Write your message here..."
+          ></textarea>
+        </div>
+        <button class="form-submit-btn">Submit</button>
+      </div>
     </div>
+    <!-- Info & links section -->
+    <footer>
+      <div class="info-container">
+        <div class="circle-info">
+          <div class="circle-logo">
+            <img src="/project-assets/logos/circle.svg" alt="" />
+          </div>
+          <div class="circle-text">
+            2972 Westheimer Rd. Santa Ana, <br />
+            Illinois 85486
+          </div>
+        </div>
+        <div class="info-links">
+          <a href="">Team</a>
+          <a href="">Services</a>
+          <a href="">About Us</a>
+          <a href="">Press</a>
+          <a href="">Projects</a>
+          <a href="">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
