@@ -27,3 +27,6 @@
 
 /* Question section */
 @import url(./question.css);
+
+/* Info and links section CSS */
+@import url(./info.css);
