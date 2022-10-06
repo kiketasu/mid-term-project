@@ -1,67 +1,78 @@
-#navbar{
-    margin-top: 60px;
-    font-weight: bold;
+#navbar {
+  margin-top: 60px;
+  font-weight: bold;
 }
 
-.navbar-brand{
-    display: none;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.contact-btn {
+  background-color: #072ac8;
+  border: none;
+  color: #f2f4fc;
+  padding: 15px 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
 }
 
-.contact-btn{
-    background-color: #072AC8;
-    border: none;
-    color: #F2F4FC;
-    padding: 15px 30px;
-    font-family: 'Roboto', sans-serif;
-    font-size: medium;
+.contact-btn:hover {
+  background-color: #292e47;
+  cursor: pointer;
 }
 
-.contact-btn:hover{
-    background-color: #292E47;
-    cursor: pointer;
-    
-}
-
-.menu{
-    width: 300px;
-    display: flex;
-    justify-content: space-between; 
+.menu {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu a {
-    color: #6B708D;
+  color: #6b708d;
 }
 
-.menu a:hover{
-    color: #072ACA;
-    cursor: pointer;
+.menu a:hover {
+  color: #072aca;
+  cursor: pointer;
+}
+
+.navbar-burger {
+  display: none;
+}
+.navbar-menu {
+  display: none;
 }
 
 /* Tablet-medium-Mobile */
-@media only screen and (max-width: 768px){
-    #navbar{
-        margin:0px;
-        padding: 0px 10px;
-    }
-    .menu{
-        display: none;
-    }
-    .contact-btn{
-        display: none;
-    }
-    .container{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .navbar-brand{
-        display: flex;
-    }
-    }
+@media only screen and (max-width: 768px) {
+  #navbar {
+    margin: 0px;
+    padding: 0px 10px;
+  }
+  .menu {
+    display: none;
+  }
+  .contact-btn {
+    display: none;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-burger {
+    display: flex;
+  }
+
+  .navbar-menu{
+    padding: 10px 0px;
+  }
+
+  .navbar-menu a{
+    padding: 0px 10px;
+  }
+  
+}
