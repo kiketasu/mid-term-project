@@ -43,16 +43,16 @@
       <div class="form-inputs">
         <div class="form-fullname">
           <label for="name">Full name *</label>
-          <input type="text" placeholder="Enter your full name" />
+          <input id="name" type="text" placeholder="Enter your full name" />
         </div>
         <div class="form-double">
           <div class="form-email">
             <label for="email">Email</label>
-            <input type="email" placeholder="Enter your email" />
+            <input id="email" type="email" placeholder="Enter your email" />
           </div>
           <div class="form-phone">
             <label for="phone">Phone</label>
-            <input type="number" placeholder="Enter your phone" />
+            <input id="phone" type="number" placeholder="Enter your phone" />
           </div>
         </div>
         <div class="form-message">
@@ -65,7 +65,7 @@
             placeholder="Write your message here..."
           ></textarea>
         </div>
-        <button class="form-submit-btn">Submit</button>
+        <button class="form-submit-btn" onclick="submit()">Submit</button>
       </div>
     </div>
     <!-- Info & links section -->
@@ -91,5 +91,6 @@
       </div>
     </footer>
     <script src="./scripts/menu-hamburgersa.js"></script>
+    <script src="./scripts/form-submit.js"></script>
   </body>
 </html>
