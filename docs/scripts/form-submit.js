@@ -7,6 +7,8 @@ function submit() {
     console.log(`Full name: ${inputName.value}, Email: ${inputEmail.value}, Phone number: ${inputPhone.value}, Message: ${inputMessage.value}`)
 }
 
+
+
 // Peticiones http
 // GET -> pedir informacion al servidor
 // POST -> enviar informacion al servidor,
