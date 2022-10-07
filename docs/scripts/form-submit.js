@@ -5,6 +5,7 @@ inputMessage = document.getElementById("message-area");
 
 function submit() {
     console.log(`Full name: ${inputName.value}, Email: ${inputEmail.value}, Phone number: ${inputPhone.value}, Message: ${inputMessage.value}`)
+    alert ("Your form has been sent succesfully")
 }
 
 
